@@ -10,7 +10,7 @@ from threading import Thread, Lock
 from typing import Callable, DefaultDict, Deque, List, Dict, Tuple, Optional
 from websocket import WebSocketApp
 
-
+# based on https://github.com/ftexchange/ftx/tree/master/websocket 
 class WebsocketManager:
     _CONNECT_TIMEOUT_S = 5
 
