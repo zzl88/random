@@ -8,6 +8,7 @@ class L2(NamedTuple):
     symbol: str
     price: float
     qty: float
+    ts: datetime.datetime
     traded_qty: Optional[float] = 0.
 
 
